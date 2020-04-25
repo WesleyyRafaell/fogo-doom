@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        body{
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #fireCanvas{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         table{
             border-collapse: collapse;
             border: 1px solid #000;
@@ -29,6 +43,12 @@
             top: 2px;
             right: 4.4px;
             color: #999;
+        }
+
+        td.pixel{
+            width: 4px;
+            height: 4px;
+            border: 0;
         }
     </style>
 </head>
